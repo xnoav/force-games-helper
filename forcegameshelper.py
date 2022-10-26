@@ -1990,7 +1990,7 @@ def main():
     updater.start_webhook(listen="0.0.0.0",
                           port=int(PORT),
                           url_path=TOKEN,
-                          webhook_url='https://forcegameshelper.herokuapp.com/' + TOKEN)
+                          webhook_url='https://testin-bot.herokuapp.com/' + TOKEN)
 
     if admin_chat_id != -1:
         bot.send_message(admin_chat_id, "Bot started")
